@@ -10,7 +10,8 @@ const authorsRouter = express.Router(); // a Router is a set of endpoints(GET, P
 // *************** How to find the path of the JSON file *****************
 const currentFilePath = fileURLToPath(import.meta.url);
 const parentFolderPath = dirname(currentFilePath);
-const authorJSONpath = join(parentFolderPath, "../jsons/authors.json");
+const authorJSONpath = join(parentFolderPath, "../jsons/authors.json"); // one folder above
+// const authorJSONpath = join(parentFolderPath, "authors.json"); //from the same folder
 
 // *************** END *****************
 
