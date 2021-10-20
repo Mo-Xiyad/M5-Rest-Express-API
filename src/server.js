@@ -1,7 +1,7 @@
 import express from "express"; // NEW IMPORT SYNTAX (remember to add type: "module" in package.json to use new syntax)
 import listEndpoints from "express-list-endpoints";
 
-import authorsRouter from "./API/blog/index.js";
+import authorsRouter from "./API/authors/index.js";
 
 const server = express();
 

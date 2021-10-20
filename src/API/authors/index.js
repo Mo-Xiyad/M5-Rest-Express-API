@@ -93,3 +93,11 @@ authorsRouter.delete("/:authorId", (req, res) => {
 });
 
 export default authorsRouter;
+
+// {
+//      "name": "{{$randomFirstName}}",
+//     "surname": "{{$randomLastName}}",
+//     "email": "{{$randomEmail}}",
+//     "DOB": "{{$randomDatePast}}",
+//     "avatar": "{{$randomImageUrl}}"
+// }
